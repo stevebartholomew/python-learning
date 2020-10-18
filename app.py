@@ -1,8 +1,6 @@
 from store import load
 from store import save
 
-DATA_FILE = 'people.json'
-
 people = load()
 
 for person in people:
